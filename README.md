@@ -13,7 +13,7 @@ const [state, setState] = useState(initialValue);
 ```
 
 - When a component is first rendered, `useState(initialValue)` initializes state with the provided value.
-- When you call `setState(newValue)`, React does not immediately update the state. Instead, it schedules an update and then, during the next render cycle, React computes and updates the new state value and re-renders the component (optimizes performance).
+- When you call `setState(newValue)`, React does not immediately update the state. Instead, it schedules an update and then, during the next render cycle, React computes and updates the new state value and re-renders the component (for performance optimization).
 
 ## 3. Example: Counter Component
 
